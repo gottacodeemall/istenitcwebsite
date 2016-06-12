@@ -5,13 +5,13 @@ improvements from previous website
 +better animation effects
 
 things to be done
-+add a gallery
-+add parallax using jquery carousel
++add a parallax scrolling
++add gallery using jquery carousel
 +add sticky header
 +add smooth scrolling
 +add preloader
 
 problems faced
--materialize.css colliding with bootstrap
+-materialize.css(used in forms for contact us in the past website) colliding with bootstrap
 
 =karthik Ammanamanchi
