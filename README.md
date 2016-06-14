@@ -3,15 +3,15 @@ my version of iste website
 improvements from previous website
 +responsive navbar
 +better animation effects
++added a parallax scrolling
++added gallery using jquery carousel
++added smooth scrolling
++added preloader
+-did not add sticky header
 
-things to be done
-+add a parallax scrolling
-+add gallery using jquery carousel
-+add sticky header
-+add smooth scrolling
-+add preloader
 
-problems faced
--materialize.css(used in forms for contact us in the past website) colliding with bootstrap
+
+PROBLEMS FACED
+--navbar on small screens is unclickable
 
 =karthik Ammanamanchi

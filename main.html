@@ -17,9 +17,12 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/owl.theme.css">
       <link rel="stylesheet" href="css/animate.css">
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/materialize.css">
+      <script src="js/owl.carousel.js"></script>
+      <script src="js/materialize.js"></script>
       <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
@@ -29,6 +32,15 @@
 </head>
 
 <body>
+<!-- preloader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
 
@@ -47,26 +59,32 @@
       <li class="active"><a class="navelementl" href="#">Home</a></li>
       <li class="dropdown navelement"><a class="dropdown-toggle" data-toggle="dropdown" href="#" >Events<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a class="navelement" >Spectrum</a></li>
-          <li><a class="navelement">AKS</a></li>
-          <li><a  class="navelement">IV</a></li>
-          <li><a class="navelement">Workshops</a></li>
+          <li><a class="navelement" href="#spectrum" >Spectrum</a></li>
+          <li><a class="navelement" href="#aks">AKS</a></li>
+          <li><a  class="navelement" href="#iv">IV</a></li>
+          <li><a class="navelement" href="#workshops">Workshops</a></li>
         </ul>
       </li>
 
-      <li > <a href="team">Team</a></li>
-      <li > <a href="gallery">Gallery</a></li>
-      <li > <a href="contactus">Contact Us</a></li>
+      <li > <a href="#team">Team</a></li>
+      <li > <a href="#gallery">Gallery</a></li>
+      <li > <a href="#contactus">Contact Us</a></li>
 
    </ul>
    </div>
    </div>
  </nav>
+
 <!-- landing page opener-->
 <div class="container-fluid">
   <div class="jumbotron">
       <h1 class="animated bounceInDown visible" data-animation="bounceInDown" data-delay="0" ><strong>ISTE <span>NITC</span> STUDENTS' CHAPTER</strong></h1>
       <p class="animated fadeInDown visible" data-animation="fadeInDown" data-delay="500" style="color:white;text-align:center;">It is commonly known that the forte of any engineering college is its depth in its technical acumen. In NITC, ISTE is one such organization that is the sole contributor to this cause. Controlled from its Headquarters in Delhi, ISTE is linked in all colleges throughout India including the premier IITs</p>
+  </div>
+  <!-- parallax -->
+  <div class="parallax-container" style="height:400px" >
+      <div class="parallax">
+          <img style="display: block;" src="img/pic2.jpg"></div>
   </div>
 
   <!-- spectrum-->
@@ -84,29 +102,52 @@ spirit among the first years.</span></p>
   <div class="col-md-6" >
       <img class="img-responsive wow fadeInRight" src="img/spectrumtxt.png">
   </div>
+</div>
+
+<!-- parallax -->
+<div class="parallax-container" style="height:400px">
+    <div class="parallax">
+        <img style="display: block;" src="img/pic2.jpg"></div>
+</div>
+
+<!-- parallax -->
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/aks.jpg"></div>
+</div>
 
   <!-- AKS-->
-<div class="row effects" id="AKS">
+<div class="row effects" id="aks">
   <div class="col-md-6">
     <p class="wow fadeInLeft" >
       <strong><h2><span>Abdul Kalam Scholarship</span></h2></strong>
-  <span class="fontchange wow fadeInLeft"><strong>Abdul Kalam Scholarship(AKS)</strong> The Abdul Kalam
+  <span class="fontchange"><strong>Abdul Kalam Scholarship(AKS)</strong> The Abdul Kalam
 Scholarship(AKS) is the premier scholarship examination conducted by
 ISTE exclusively for the first years. Format: The AKS is divided into
 three stages based on which the judgement is made- Written test, Group
 Discussion (GD) and a Personal Interview.</span></p>
 <br>
 <button type="button" class="btn btn-info wow fadeInLeft">More Info</button>
-
 </div>
   <div class="col-md-6">
-  <img  class="img-responsive wow fadeInRight" style="max-width: 250px;margin-left:25%;" src="img/brain.jpg">
+  <img  class="img-responsive wow fadeInRight" style="max-width: 250px;margin-left:25%;padding-top:2%;" src="img/brain.jpg">
   </div>
 </div>
+
+<!-- parallax -->
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/aks.jpg"></div>
+</div>
+
+<!-- parallax -->
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/iv_bgimage.jpg"></div>
 </div>
 
 <!-- Industrial visit-->
-<div class="row effects" id="IV">
+<div class="row effects" id="iv">
   <div class="col-md-6">
     <p class="wow fadeInLeft" >
     <strong><h2><span>Industrial Visit</span></h2></strong>
@@ -121,9 +162,18 @@ Discussion (GD) and a Personal Interview.</span></p>
   <img class="img-responsive wow fadeInRight" src="img/iv.png">
   </div>
 </div>
+<!-- parallax -->
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/iv_bgimage.jpg"></div>
+</div>
 
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/workshop.jpg"></div>
+</div>
 <!-- Career Workshop -->
-<div class="row effects" id="careerworkshop">
+<div class="row effects" id="workshop">
   <div class="col-md-6">
     <h2><strong><span>Career Workshop</span></strong></h2>
   <p class="wow fadeInLeft">
@@ -135,12 +185,33 @@ is a must for all.</span></p>
 <button type="button" class="btn btn-info wow fadeInLeft">More Info</button>
   </div>
   <div class="col-md-6">
-    <img class="img-responsive wow fadeInRight" style="max-width: 250px;margin-left:35%;" src="img/workshop.png">
+    <img class="img-responsive wow fadeInRight" style="max-width: 250px;margin-left:30%;padding-top:2%;" src="img/workshop.png">
+  </div>
+</div>
+<!-- parallax -->
+<div class="parallax-container" style="height:400px;">
+    <div class="parallax">
+        <img  src="img/workshop.jpg"></div>
+</div>
+<!-- galllery -->
+<div class="row gal">
+  <div class="col-md-12">
+    <p class="wow bounceInDown"><strong>Gallery</strong></p>
+   <div id="gallery">
+    <div class="item"><img src="img/grp.jpg " ></div>
+    <div class="item"><img src="img/grp2.jpg"></div>
+    <div class="item"><img src="img/gal3.jpg"></div>
+    <div class="item"><img src="img/gal4.jpg"></div>
+    <div class="item"><img src="img/gal5.jpg"></div>
+    <div class="item"><img src="img/gal6.jpg"></div>
+    <div class="item"><img src="img/gal7.jpg"></div>
+    <div class="item"><img src="img/gal8.jpg"></div>
+ </div>
   </div>
 </div>
 
 <!-- team -->
-<div class="sec_team" id="sec_team" style="background: #333333;color:#fff">
+<div class="sec_team" id="team" style="background: #333333;color:#fff">
     <h1 style="text-align:center;font-size:2em;padding-top: 25px;" class="wow flipInX"><strong> Our Team</strong></h1>
     <div class="container-fluid">
         <div class="row">
@@ -224,10 +295,10 @@ is a must for all.</span></p>
 
 
     <!-- Contact Us -->
-    <div class="container-fluid" id="sec_contact">
+    <div class="container-fluid " id="contactus">
         <div class="row">
 
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6 wow fadeInLeft">
                 <h1 style="text-align:center;font-size:2em">Contact Us</h1>
                 <form method="post" action="./contact.php" name="feedform" class="feedform" id="theform">
                     <div class="input-field">
@@ -254,21 +325,76 @@ is a must for all.</span></p>
                     </div>
                 </form>
             </div>
-            <div class="col-xs-12 col-md-6 text-center">
-                <div style="padding: 20px;">
+            <div class="col-xs-12 col-md-6 text-center wow fadeInRight">
+                <div style="padding: 20px;margin-top:10%;">
                     <img class="img-responsive" src="img/nitcmap.jpg">
                 </div>
             </div>
         </div>
     </div>
-<div class="row">
-  <div class="col-md-12"></div>
-</div>
-</div>
-<!-- gallery -->
 <!-- footer -->
 <footer>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+    <p style="text-align:center;">Developed by creative minds of ISTE NITC STUDENTS' CHAPTER</p>
+  </div>
+
+  <div class="col-md-6">
+    <p style="text-align:center;">© 2016 ISTE NITC STUDENTS' CHAPTER</p>
+</div>
+</div>
+</div>
+
 </footer>
+</div>
+<script>
+<!-- parallax -->
+(function($){
+  $(function(){
+    $('.parallax').parallax();
+
+  });
+})(jQuery);
+
+<!-- gallery -->
+    $(document).ready(function() {
+     $("#gallery").owlCarousel({
+       autoPlay: 3000,
+          items : 4,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+        });
+     });
+
+     $(function() {
+     $('a[href*="#"]:not([href="#"])').click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html, body').animate({
+             scrollTop: target.offset().top
+           }, 1000);
+           return false;
+         }
+       }
+     });
+   });
+
+   $(document).ready(function() {
+
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 2000);
+
+});
+
+
+
+
+</script>
 
 
 </body>
